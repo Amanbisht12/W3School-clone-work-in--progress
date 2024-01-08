@@ -1,0 +1,908 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color:  #273036;
+    width: 100%;
+    height: 10vh;
+    color: white;
+}
+.img-fluid{
+    width: 60px;
+    padding: 10px;
+    padding-left: 15px;
+}
+div span a{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
+div span a:hover{
+   background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+}
+input[type=text]{
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+   border: none;
+    outline: none;
+    
+}
+.icon a{
+  position: relative;
+right: 240px;
+    border-radius: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   padding-right: 20px;
+   
+}
+.icon a:hover{
+    background-color: rgb(183, 181, 181);
+    color: black;
+}
+.search{
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 180px;
+    height: 37px;
+}
+#navbar {
+    background-color: #273036;
+    display: flex;
+  padding-right: 40px;
+    justify-content: space-evenly;
+}
+.navbarone a:hover{
+   background-color: black;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   width: fit-content;
+}
+.bi-suitcase-lg,
+.bi-code-slash,
+.bi-cart3{
+  color: #9763f6;
+}
+.rightbutton{
+  position: absolute;
+  height: 30px;
+  left: 1350px;
+}
+.sign{
+  position: relative;
+  right: 40px;
+  width: 90px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  }
+.sign:hover{
+  background-color: #038052;
+}
+.login {
+  position: absolute;
+  left: 20px;
+  width: 100px;
+  padding: 6px;
+  border-radius: 20px;
+  border: none;
+  background-color: #D9EEE1;
+}
+.login:hover{
+  background-color: #04AA6D;
+  color: white;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    background-color: #273036;
+    width: 100%;
+    height: 50vh;
+}
+.heading h1{
+    padding-top: 40px;
+    padding-left: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+}
+.center h3{
+    color: bisque;
+    padding-left: 30px;
+}
+.heading{
+ position: absolute;
+ left: 500px;
+ top: 130px;
+}
+input[type=search]{
+    position: absolute;
+    top: 180px;
+    width: 550px;
+    height: 6vh;
+    border-radius: 50px ;
+    border: 1px solid grey;
+    outline: none;
+}
+.question{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 115px;
+    font-size: 20px;
+}
+.image{
+    position: relative;
+ top: 370px;
+}
+.yellow{
+    background-color: #D9EEE1;
+    width: 100%;
+    height: 100vh;
+}
+.htmlexample{
+    background-color: #38444d;
+    width: 440px;
+    height: 61vh;
+    position: absolute;
+    border-radius: 6px;
+    left: 700px;
+    top: 700px;
+}
+.htmlexample h5{
+    color: white;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+
+}
+.htmlcodeone{
+    background-color:rgb(21,32,43);
+    width: 410px;
+    height: 42vh;
+    position: absolute;
+    left: 15px;
+   top: 70px;
+}
+.onehtml{
+    color: #ff9999;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+  #onehtml{
+    color: rgba(220, 137, 220, 0.649);
+  }
+  .twohtml{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    color: #ff9999;
+  }
+  .threehtml{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    color: #ff9999;
+  }
+  .fourhtml{
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    color: #ff9999;
+  }
+  #fourhtml{
+    color: white;
+  }
+  .fivehtml{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    color: #ff9999;
+  }
+  .sixhtml{
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    color: #ff9999;
+  }
+  .sevenhtml{
+    position: absolute;
+    left: 10px;
+    top: 170px;
+    color: #ff9999;
+  }
+  #sevenhtml{
+    color: white;
+  }
+  .eighthtml{
+    position: absolute;
+    left: 10px;
+    top: 190px;
+    color: #ff9999;
+  }
+  #eighthtml{
+    color: white;
+  }
+  .ninehtml{
+    position: absolute;
+    left: 10px;
+    top: 240px;
+    color: #ff9999;
+  }
+  .tenhtml{
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    color: #ff9999;
+  }
+  
+  
+.htmlexample button{
+    position: absolute;
+    top: 395px;
+    left: 16px;
+   width: 190px;
+   padding: 10px;
+   color: white;
+   background-color: #04AA6D;
+   border-radius: 20px;
+   border: none;
+}
+.content{
+  position: absolute;
+  left: 270px;
+  top: 750px;
+}
+.html{
+    font-weight: 700;
+    font-size: 100px;
+   padding-left: 25px;
+ }
+.btn1{
+background-color: #04AA6D;
+position: relative;
+left: 90px;
+padding: 6px;
+width: 180px;
+border-radius: 20px;
+border: none;
+color: white;
+}
+.btn2{
+background-color:#FFF4A3;
+position: relative;
+left: 90px;
+top: 25px;
+padding: 6px;
+width: 180px;
+border-radius: 20px;
+border: none;
+}
+.btn3{
+background-color: #0e0f0e;
+position: relative;
+left: 90px;
+top: 45px;
+padding: 6px;
+width: 180px;
+border-radius: 20px;
+border: none;
+color: white;
+}
+.btn4{
+background-color: #e842d798;
+position: relative;
+left: 90px;
+top: 70px;
+padding: 6px;
+width: 180px;
+border-radius: 20px;
+border: none;
+}
+.yellowone{
+    background-color: #FFF4A3;
+    height: 70vh;
+}
+.cssexample{
+    background-color: #38444d;
+    width: 440px;
+    height: 61vh;
+    position: absolute;
+    border-radius: 6px;
+    left: 700px;
+    top: 1250px;
+}
+.cssexample h5{
+    color: white;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+
+}
+.csscodeone{
+    background-color:rgb(21,32,43);
+    width: 410px;
+    height: 42vh;
+    position: absolute;
+    left: 15px;
+   top: 70px;
+}
+.cssexample button{
+    position: absolute;
+    top: 395px;
+    left: 16px;
+   width: 190px;
+   padding: 10px;
+   color: white;
+   background-color: #04AA6D;
+   border-radius: 20px;
+   border: none;
+}
+.contentcss{
+    position: absolute;
+    left: 270px;
+    top: 1280px;
+  }
+  .css{
+      font-size: 100px;
+     padding-left: 90px;
+   }
+  .btncss1{
+  background-color: #04AA6D;
+  position: relative;
+  left: 90px;
+  padding: 6px;
+  width: 180px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  }
+  .btncss2{
+  background-color: black;
+  position: relative;
+  left: 90px;
+  top: 20px;
+  padding: 6px;
+  width: 180px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  }
+  .btncss3{
+    background-color: #e842d798;
+    position: relative;
+    left: 90px;
+    top: 40px;
+    padding: 6px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    }
+    .yellowtwo{
+        background-color: #0f0e0e;
+        height: 70vh;
+    }
+    .javascriptexample{
+        background-color: #38444d;
+        width: 440px;
+        height: 61vh;
+        position: absolute;
+        border-radius: 6px;
+        left: 700px;
+        top: 1760px;
+    }
+    .javascriptexample h5{
+        color: white;
+      position: absolute;
+      top: 30px;
+      left: 15px;
+    
+    }
+    .javascriptcodeone{
+        background-color:rgb(21,32,43);
+        width: 410px;
+        height: 42vh;
+        position: absolute;
+        left: 15px;
+       top: 70px;
+    }
+    .javao{
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      color:  rgb(93, 198, 93);
+      }
+      .buttonjava{
+        position: absolute;
+        top: 15px;
+        left: 26px;
+        color: #ff9999;
+      }
+      .oneclickjava{
+        position: absolute;
+        top: 15px;
+        left: 75px;
+        color: plum;
+      }
+      .myjava{
+        position: absolute;
+        top: 15px;
+        left: 130px;
+        color: rgb(93, 198, 93);
+      }
+      .clickjava{
+        position: absolute;
+        top: 15px;
+        left: 250px;
+        color: white;
+      }
+      .openingjava{
+        position: absolute;
+        top: 15px;
+        left: 320px;
+        color: rgb(93, 198, 93);
+      }
+      .buttonclosingjava{
+        position: absolute;
+        top: 15px;
+        left: 330px;
+        color: #ff9999;
+      }
+      .closingjava{
+        position: absolute;
+        top: 15px;
+        left: 380px;
+        color:  rgb(93, 198, 93);
+      }
+      .opening{
+        position: absolute;
+        top: 60px;
+        left: 15px;
+        color:  rgb(93, 198, 93);
+      }
+      .script{
+        position: absolute;
+        top: 58px;
+        left: 25px;
+        color: #ff9999;
+      }
+      .closing{
+        position: absolute;
+        top: 60px;
+        left:63px;
+        color:  rgb(93, 198, 93);
+      }
+      .function{
+        position: absolute;
+        top: 78px;
+        left: 15px;
+        color:  plum;
+      }
+      .myfunction{
+        position: absolute;
+        top: 78px;
+        left: 75px;
+        color:  white;
+      }
+      .symbol{
+        position: absolute;
+        top: 78px;
+        left: 189px;
+        color:  white;
+      }
+      .let{
+        position: absolute;
+        top: 100px;
+        left: 25px;
+        color: plum;
+      }
+      .x{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        color: white;
+      }
+      .demo{
+        position: absolute;
+        top: 100px;
+        left: 265px;
+        color: rgb(93, 198, 93);
+      }
+      .symbolclosing{
+        position: absolute;
+        top: 100px;
+        left: 315px;
+        color: white;
+      }
+      .xstyle{
+        position: absolute;
+        top: 125px;
+        left: 25px;
+        color: white;
+      }
+      .px{
+        position: absolute;
+        top: 125px;
+        left: 150px;
+        color: rgb(93, 198, 93);
+      }
+      .closingpx{
+        position: absolute;
+        top: 125px;
+        left: 200px;
+        color: white;
+      }
+      .xcolor{
+        position: absolute;
+        top: 150px;
+        left: 25px;
+        color: white;
+      }
+      .dotred{
+        position: absolute;
+        top: 150px;
+        left: 130px;
+        color: rgb(93, 198, 93);
+      }
+      .closingred{
+        position: absolute;
+        top: 150px;
+        left: 170px;
+        color: white;
+      }
+      #closing{
+        position: absolute;
+        top: 175px;
+        left: 15px;
+        color: white;
+      }
+      .openingscript{
+        position: absolute;
+        top: 212px;
+        left: 15px;
+        color: rgb(93, 198, 93);
+      }
+      .scriptlast{
+        position: absolute;
+        top: 210px;
+        left: 27px;
+        color: #ff9999;
+      }
+      .closingscript{
+        position: absolute;
+        top: 212px;
+        left: 70px;
+        color: rgb(93, 198, 93);
+      }
+      
+    .javascriptexample button{
+        position: absolute;
+        top: 395px;
+        left: 16px;
+       width: 190px;
+       padding: 10px;
+       color: white;
+       background-color: #04AA6D;
+       border-radius: 20px;
+       border: none;
+    }
+    .contentjavascript{
+        position: absolute;
+        left: 270px;
+        top: 1800px;
+        color: white;
+      }
+      .javascript{
+          font-size: 70px;
+         padding-left: 30px;
+         color: white;
+       }
+      .btnjava1{
+      background-color: #04AA6D;
+      position: relative;
+      left: 90px;
+      padding: 6px;
+      width: 180px;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      }
+      .btnjava2{
+      background-color:white;
+      position: relative;
+      left: 90px;
+      top: 20px;
+      padding: 6px;
+      width: 180px;
+      border-radius: 20px;
+      border: none;
+      }
+      .btnjava3{
+        background-color: #ec8de398;
+        position: relative;
+        left: 90px;
+        top: 40px;
+        padding: 6px;
+        width: 180px;
+        border-radius: 20px;
+        border: none;
+        }
+        .yellowthree{
+            background-color: white;
+            height: 70vh;
+        }
+        .pythonexample{
+            background-color: #38444d;
+            width: 440px;
+            height: 61vh;
+            position: absolute;
+            border-radius: 6px;
+            left: 700px;
+            top: 2280px;
+        }
+        .pythonexample h5{
+            color: white;
+          position: absolute;
+          top: 30px;
+          left: 15px;
+        
+        }
+        .pythoncodeone{
+            background-color:rgb(21,32,43);
+            width: 410px;
+            height: 42vh;
+            position: absolute;
+            left: 15px;
+           top: 70px;
+        }
+        .pythonone{
+          position: absolute;
+          top: 20px;
+          left: 10px;
+          color: rgb(187, 132, 187);
+          }
+          .numpython{
+            position: absolute;
+          top: 20px;
+          left: 30px;
+          color: skyblue;
+          }
+          .sympython{
+            position: absolute;
+          top: 20px;
+          left: 50px;
+          color: white;
+          }
+          .numonepython{
+            position: absolute;
+          top: 20px;
+          left: 70px;
+          color: skyblue;
+          }
+          .dotpython{
+            position: absolute;
+          top: 20px;
+          left: 80px;
+          color: white;
+          }
+          .printpython{
+            position: absolute;
+            top: 45px;
+          left: 30px;
+            color: white;
+          }
+          .bracketpython{
+            position: absolute;
+            top: 45px;
+          left: 63px;
+            color: white;
+          }
+          .parapython{
+            position: absolute;
+            top: 45px;
+          left: 73px;
+            color: darkseagreen;
+          }
+          .closingbpython{
+            position: absolute;
+            top: 45px;
+          left: 257px;
+            color: white;
+          }
+        .pythonexample button{
+            position: absolute;
+            top: 395px;
+            left: 16px;
+           width: 190px;
+           padding: 10px;
+           color: white;
+           background-color: #04AA6D;
+           border-radius: 20px;
+           border: none;
+        }
+        .contentpython{
+            position: absolute;
+            left: 270px;
+            top: 2300px;
+          }
+          .python{
+              font-size: 100px;
+             padding-left: 50px;
+           }
+          .btnpython1{
+          background-color: #04AA6D;
+          position: relative;
+          left: 90px;
+          padding: 6px;
+          width: 180px;
+          border-radius: 20px;
+          border: none;
+          color: black;
+          }
+          .btnpython2{
+          background-color: black;
+          position: relative;
+          left: 90px;
+          top: 20px;
+          padding: 6px;
+          width: 180px;
+          border-radius: 20px;
+          border: none;
+          color: white;
+          }
+          .btnpython3{
+            background-color: #e842d798;
+            position: relative;
+            left: 90px;
+            top: 40px;
+            padding: 6px;
+            width: 180px;
+            border-radius: 20px;
+            border: none;
+            color: black;
+            }
+        .yellowfour{
+            background-color: #96D4D4;
+            height: 70vh;
+        }
+        .sqlexample{
+            background-color: #38444d;
+            width: 440px;
+            height: 61vh;
+            position: absolute;
+            border-radius: 6px;
+            left: 700px;
+            top: 2800px;
+        }
+        .sqlexample h5{
+            color: white;
+          position: absolute;
+          top: 30px;
+          left: 15px;
+        
+        }
+        .sqlcodeone{
+            background-color:rgb(21,32,43);
+            width: 410px;
+            height: 42vh;
+            position: absolute;
+            left: 15px;
+           top: 70px;
+        }
+        .selectsql{
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          color: skyblue;
+        }
+        .symsql{
+          position: absolute;
+          top: 10px;
+          left: 75px;
+          color: white;
+        }
+        .fromsql{
+          position: absolute;
+          top: 10px;
+          left: 89px;
+          color: skyblue;
+        }
+        .Customersql{
+          position: absolute;
+          top: 10px;
+          left: 130px;
+          color: white;
+        }
+        .wheresql{
+          position: absolute;
+          top: 35px;
+          left: 12px;
+          color: skyblue;
+        }
+        .countrysql{
+          position: absolute;
+          top: 35px;
+          left: 80px;
+          color: white;
+        }
+        .mexicosql{
+          position: absolute;
+          top: 35px;
+          left: 150px;
+          color: darkseagreen;
+        }
+        .closingsql{
+          position: absolute;
+          top: 35px;
+          left: 210px;
+          color: white;
+        }        
+        .sqlexample button{
+            position: absolute;
+            top: 395px;
+            left: 16px;
+           width: 190px;
+           padding: 10px;
+           color: white;
+           background-color: #04AA6D;
+           border-radius: 20px;
+           border: none;
+        }
+        .contentsql{
+            position: absolute;
+            left: 270px;
+            top: 2880px;
+          }
+          .sql{
+              font-size: 100px;
+             padding-left: 80px;
+           }
+          .btnsql1{
+          background-color: #04AA6D;
+          position: relative;
+          left: 90px;
+          padding: 6px;
+          width: 180px;
+          border-radius: 20px;
+          border: none;
+          color: black;
+          }
+          .btnsql2{
+          background-color: black;
+          position: relative;
+          left: 90px;
+          top: 20px;
+          padding: 6px;
+          width: 180px;
+          border-radius: 20px;
+          border: none;
+          color: white;
+          }
+          .btnsql3{
+            background-color: #e842d798;
+            position: relative;
+            left: 90px;
+            top: 40px;
+            padding: 6px;
+            width: 180px;
+            border-radius: 20px;
+            border: none;
+            color: black;
+            }
+
